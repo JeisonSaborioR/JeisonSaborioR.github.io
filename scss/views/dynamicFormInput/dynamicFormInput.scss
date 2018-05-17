@@ -1,0 +1,30 @@
+.inputCurrency{
+    border: 1px solid #D0E1EF;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 0.875rem;
+    padding: 0.375rem 0.75rem;
+    color: #3e515b;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.textAreaBranding{
+    border-radius: 3px;
+    min-height: 50px;
+    max-height: 500px;
+}
+.labelOptions{
+    margin-top: 8px;
+    input{
+        margin-right: 5px;
+    }
+}
+
+.alert-danger{
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 0.45rem 1.25rem;
+}
+
+.inputRequerido{
+    color: $pinterest;
+}

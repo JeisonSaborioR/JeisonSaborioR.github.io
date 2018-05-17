@@ -1,0 +1,6 @@
+{
+  "name": "DynamicFormInput",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./DynamicFormInput.js"
+}

@@ -1,0 +1,342 @@
+// Here you can add other styles
+.btnBranding{
+    background: $blue;
+    color: $white;
+    border-radius: 3px;
+    width: 197px;
+    height: 35px;
+    align-content: center;
+    &.isInCart{
+        color: $yellow;
+    }
+}
+.btnBranding:hover{
+    background: $blue;
+    color: $white;
+    &.isInCart{
+        color: $yellow;
+    }
+}
+
+.labelBranding{
+    font-size : 0.9rem;
+}
+.labelBrandingOrange{
+    color: $orangeBranding;
+}
+.marginRight{
+    margin-right: 5px;
+}
+.bodyCardBranding{
+    background: $lightBlue;
+}
+
+.btnIsInCart{
+    color: $yellow;
+}
+
+.checkButton{
+    margin-right: 1px;
+    padding-right: 1px;
+    float: right;
+}
+
+.btnMarginRight{
+    margin-right:10px;
+}
+
+.inputBranding{
+    border-radius: 3px;
+    &.size{
+        width: 150px;
+        height: 33px;
+        margin-right: 10px;
+    }
+}
+
+h4{
+    color:$blue; 
+    font-weight:bold;
+}
+
+.titleColor{
+    color:$blue; 
+    font-weight:bold;
+    font-size: 0.9rem;
+}
+
+.btn-link{
+    color: $blue;
+    padding: 0%;
+}
+
+.btn-link:hover{
+    color: $blue;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-link:focus{
+    text-decoration: none;
+}
+.list-group-item{
+    background: $lightBlue;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.linkProcedures{
+    padding-top: 8px;
+}
+
+.historyList{
+    width: 100%;
+    line-height: 1.2;
+}
+
+.spacing{
+    margin-bottom: 20px;
+}
+
+.spacingTop{
+    margin-top: 18px;
+}
+
+.spacingLeft{
+    margin-left: 10px;  
+}
+.btnSpacingBottom{
+    margin-bottom: 6px;
+}
+.spacingRight{
+    padding-right: 15px;    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0%;
+}
+
+.table {
+    .no-border-top {
+        border-top: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+.formPaymentProof{
+    padding-top: 5px;
+}
+
+.btnDownloadPaymentProof{
+    margin-top: 5px;
+    @media (min-width: 750px) {
+        margin-left: 10px;
+    }
+}
+
+.tableRowHeader{
+    background: $lightBlue;
+    height: 15px;
+}
+
+
+.container {
+    @media (min-width: 1200px) {
+        max-width: 1500px;
+    }
+}
+
+.app-header.navbar {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.2);
+}
+
+.sidebar {
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .divider {
+        background-color: #efefef45;
+    }
+
+    .profileNavItem {
+        background-color: #005BAA;
+        padding: 10px 0;
+        border: #efefef45 solid 2px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        height: 100%;
+        .nav-link{
+            height: 100%;
+        }
+        .nav-link.active {
+            height: 100%;
+            background-color: #005BAA;
+        }
+        .nav-link.hover{
+            background-color: #005BAA;
+        }
+
+        label {
+            font-size: 0.9rem;
+        }
+
+        i {
+            position: relative;
+            top: 2px;
+            left: 20px;
+        }
+
+        small {
+            font-size: 0.7rem;
+        }
+    }
+}
+.profileNavItem.hover{
+    background-color: #005BAA;
+}
+.alignColumns{
+    padding-left: 12px;
+    margin-bottom: 0;
+}
+
+.inputEmail{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 400px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.sentMailProof{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.fa-trash-o{
+    margin-left: 8px;
+}
+
+////Global styles dynamic inputs 
+.form-horizontal{ 
+    .form-group{ 
+        .control-label{ 
+            color:$blue;  
+            font-weight:bold; 
+            padding: 0px; 
+        } 
+        .col-md-12, .col-xs-12{ 
+            padding: 0px; 
+            .form-control{ 
+                border-radius: 3px;  
+            } 
+        } 
+    } 
+    .btn{ 
+        float: right; 
+        background: $blue; 
+        color: $white; 
+        border-radius: 3px; 
+        width: 168px; 
+        height: 35px; 
+        align-content: center; 
+        margin-left: 10px; 
+        margin-bottom: 10px; 
+    } 
+} 
+
+.iconosHeader{
+    color: $blue;
+   
+}
+
+hr{
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+
+.labelOptions  {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.labelOptions  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border: 3px solid $blue;
+    border-radius: 50%;
+}
+
+.labelOptions :hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+
+.labelOptions  input:checked ~ .checkmark {
+    background-color: $white;
+}
+
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.labelOptions  input:checked ~ .checkmark:after {
+    display: block;
+}
+
+
+.labelOptions .checkmark:after {
+ 	top: 2px;
+	left: 2px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background:  $blue;
+}
+
+// @media(max-width: 240px){
+//     #g-recaptcha {
+//     transform:scale(0.58);-webkit-transform:scale(0.58);
+//     transform-origin:0 0;-webkit-transform-origin:0 0;
+// }}
+#g-recaptcha {
+    float: right;
+}
+
+@media(max-width: 340px){
+    #g-recaptcha {
+        float: left;
+        padding-right:0px; 
+        transform:scale(0.30);-webkit-transform:scale(0.90);
+        transform-origin:0 0;-webkit-transform-origin:0 0;
+    }
+}
+

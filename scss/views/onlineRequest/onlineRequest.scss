@@ -1,0 +1,22 @@
+
+.labProcedure{
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titleProcedure{
+    padding-top: 6px;
+}
+.dropdownNewRequests:hover, .dropdownNewRequests:focus, .dropdownNewRequests:active {
+    background-color: $lightBlue;
+    color: #005aab;
+}
+
+.dropdownNewRequests{
+    width: 250px;
+    height: 32px;
+    background-color:$lightBlue;
+    border-radius: 3px;
+    font-weight:bold;
+    border-color:#133a88;
+    color: #005aab; 
+}

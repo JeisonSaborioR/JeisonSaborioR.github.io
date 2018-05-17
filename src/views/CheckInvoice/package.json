@@ -1,0 +1,7 @@
+{
+    "name": "CheckInvoce",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./CheckInvoce.js"
+}
+  

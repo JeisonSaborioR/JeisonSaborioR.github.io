@@ -1,0 +1,27 @@
+
+.form-control:disabled, .form-control[readonly]{
+    background-color: white;
+}
+.btnChancePassword {
+    color: $blue;
+    margin-top: 6px;
+    margin-right: 3%;
+    @media (max-width: 375px) {
+        float: right; 
+    }
+}
+.btnChancePassword:hover{
+    color: $blue;
+}
+.btnSecondBranding{
+    background-color: $lightBlue;
+    color: $blue;
+    border-radius: 3px;
+    width: 160px;
+    border-color: $blue;
+    height: 35px;
+}
+.btnSecondBranding:hover{
+    background-color: $white;
+}
+

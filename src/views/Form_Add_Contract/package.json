@@ -1,0 +1,7 @@
+{
+    "name": "Form_Add_Contract",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./Form_Add_Contract.js"
+}
+  

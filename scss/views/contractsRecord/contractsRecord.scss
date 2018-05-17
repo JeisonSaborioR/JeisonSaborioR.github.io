@@ -1,0 +1,30 @@
+.chartsBody{
+    height: 700px;
+}
+
+.dropdownBranding{
+    width:85px;
+    height: 33px;
+    background-color:$lightBlue;
+    border-radius: 3px;
+    font-weight:bold;
+    border-color:#133a88;
+    color: #005aab; 
+    margin-right: 10px;
+    text-decoration: none;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    & .showContract{
+        width:15px;
+        min-width: 10px;
+    }
+}
+
+.dropdownBranding option:hover, .dropdownBranding option:focus, .dropdownBranding option:active,.dropdownBranding option:checked  {
+    border-color:#133a88;
+    background-color:$lightBlue;
+    text-decoration: none;
+}
+.tabRecord{
+    padding: 0px;
+}

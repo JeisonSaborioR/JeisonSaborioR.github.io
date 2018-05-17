@@ -1,0 +1,7 @@
+{
+    "name": "PayGateway",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./PayGateway.js"
+  }
+  

@@ -1,0 +1,23 @@
+.table-outline {
+  border: 1px solid $table-border-color;
+
+  td {
+    vertical-align: middle;
+    max-width: 8px;
+  }
+}
+
+.table-align-middle {
+
+  td {
+    vertical-align: middle;
+    max-width: 8px;
+  }
+}
+
+.table-clear {
+  td {
+    border: 0;
+    max-width: 8px;
+  }
+}

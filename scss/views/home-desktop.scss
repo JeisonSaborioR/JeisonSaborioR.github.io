@@ -1,0 +1,11 @@
+.corousel {
+    width:90%;
+    .imagesCorousel {
+        @media  (min-width: 700px) {
+            //500
+            height: 550px;
+            max-height: 550px;
+            width: 100%;
+        }
+    }
+}

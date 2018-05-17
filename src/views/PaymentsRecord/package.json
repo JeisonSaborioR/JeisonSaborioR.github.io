@@ -1,0 +1,7 @@
+{
+    "name": "PaymentsRecord",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./PaymentsRecord.js"
+}
+  

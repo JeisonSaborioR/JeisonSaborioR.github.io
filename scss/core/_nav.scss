@@ -1,0 +1,58 @@
+.nav-tabs {
+  background: $lightBlue;
+  font-weight:bold;
+  color: $blue;
+  border-radius: 3px;
+  .nav-item{
+    background: $lightBlue;
+    width: 30%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    &.navItemSize{
+      width: 40%;
+    }
+  }
+  .nav-link {
+    display: block;
+    text-align: center;
+    width:100%;
+    border-color: $lightBlue;
+    border-radius: 3px;
+    
+    &:hover {
+      color: $blue;
+      background: #D0E1EF;
+      border-color: $lightBlue;
+
+    }
+    &.active {
+      color: $blue;
+      background: #D0E1EF;
+      border-color: $lightBlue;
+ 
+
+      &:focus {
+        color: $blue;
+        background: #D0E1EF;
+        border-color: $lightBlue;
+      }
+    }
+  }
+}
+
+.tab-content {
+  margin-top: -1px;
+  background: #fff;
+  .tab-pane {
+    padding-top: 16px;
+    
+  }
+}
+
+.card-block {
+  .tab-content {
+    margin-top: 0;
+    border: 0;
+  }
+}

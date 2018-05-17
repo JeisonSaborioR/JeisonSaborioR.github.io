@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["react"], ["env","@babel/preset-env"],[ "es2015"],["stage-1"]
+  ],
+  "plugins": ["transform-object-rest-spread"]
+}

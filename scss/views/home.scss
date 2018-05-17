@@ -1,0 +1,20 @@
+//Corousel Images Home View
+.corousel{
+    width:100%;
+    height: 100%;
+    margin: auto;
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .imagesCorousel{
+        //115
+        width: auto;
+        height: 105vw;
+        max-height: 105vw;
+      }
+}
